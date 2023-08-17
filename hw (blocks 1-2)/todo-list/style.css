@@ -1,0 +1,98 @@
+.todo-container{
+    box-sizing: border-box;
+    background-color: rgb(235, 253, 255);
+    border-radius: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 500px;
+    padding: 50px 35px;
+}
+
+
+.todo-header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__button-del{
+    background-color: rgb(234, 255, 240);
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 100px;
+    font-size: 16px;
+}
+.header__button-add{
+    background-color: rgb(234, 255, 240);
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 100px;
+    font-size: 16px;
+}
+.header__input{
+    text-align: center;
+    background-color: rgb(254, 254, 254);
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.header__input::placeholder {
+    font-size: 14px;
+    color: rgb(194, 194, 194);
+    text-align: center;
+}
+
+
+.todo-task{
+    background-color: rgb(215, 227, 255);
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    display: flex;
+}
+.block__button-check{
+    background-color: rgb(234, 255, 240);
+    border: 2px solid black;
+    font-weight: 900;
+    font-size: 18px;
+    border-radius: 9px;
+    width: 30px;
+    height: 30px;
+}
+.block__text{
+    text-align: center;
+    font-size: 16px;
+    line-height: 18px;
+    margin-left: 20px;
+    background-color: rgb(254, 254, 254);
+    width: 250px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 20px;
+}
+.block__button-del{
+    background-color: rgb(234, 255, 240);
+    border: 2px solid black;
+    font-size: 18px;
+    border-radius: 9px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 70px;
+}
+.block__date{
+    text-align: center;
+    background-color: rgb(254, 254, 254);
+    width: 75px;
+    height: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin-top: auto;
+}
+
+.task-done{
+    background-color: rgb(160, 150, 255);
+}
